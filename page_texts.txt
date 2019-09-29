@@ -1,0 +1,77 @@
+'welcome' will be the header (h1 style) after logging in:
+welcome || Welcome participant ##user## !
+
+'thank-you' will show for subjects who have completed the whole shebang:
+thank-you || <br><br> You have completed 100% of the ratings<br><br>Thank you!
+
+'instructions' is the header (h2 style) for instructions:
+instructions || Preliminary instructions
+
+'start' will be displayed after logging in and take the user to the session:
+start || <br><br><a href=##goto##>Click here to begin.</a>
+
+'uid_error' is error message which is displayed for non-existent user id:
+uid_error || UserID ##user## does not exist. <a href="index.php">go back</a>
+
+Title (displayed on login page, does not support ## markup):
+title || Meditation Heatmaps
+
+'tasklabel' (displayed as instruction on every page where user does something (annotate-pages):
+tasklabel || For the pictures below, evaluate how the activity of your body changes when you feel...
+
+'forward' button moves subject from one stimulus to the next when ready
+forward || Click here when done
+
+'delete' button empties the filled in annotation page (i.e. the user starts over for that stimulus)
+delete || Reset
+
+'left_label' shows underneath the left-hand side picture in annotation page
+left_label || <strong>Shade parts of the body where you feel moderate to strong sensation.</strong> Run the mouse over areas where you are experiencing strong sensations (most activation), repeatedly to darken shading. <strong>Please note:</strong> if you feel no sensation in the body, please leave this body silhouette blank.
+
+right_label || <strong>Shade parts of the body where you feel minimal to no sensation.</strong> Run the mouse over areas where you are experiencing no sensations (most deactivation), repeatedly to darken shading. Shade areas where you are experiencing minimal sensations more lightly.
+'login-dialog' for what to tell the user at login screen
+login-dialog || Enter your username
+
+'register' for what to tell the user at login screen
+register || If you do not have a username, please <a href="register.php">register</a>!
+
+'privacy_notice' self explanatory
+privacy_notice || In accordance with the General Data Protection Regulation (GDPR) and related UK data protection legislation.
+
+'rp_' is stuff for the register page
+rp_title || Register for the experiment
+
+rp_text || Participating in the study is voluntary, and you can terminate the experiment at any point you wish. All the data acquired in the study will be treated confidentially and only members of our research group will have access to it. It will not be possible for us to identify you on the basis of your responses. 
+
+rp_sex || Gender
+rp_male || Male
+rp_female || Female
+rp_age || Age
+rp_weight || What's 1+1?
+rp_height || What's 1+2?
+rp_kg || Kg
+rp_cm || cm
+rp_handedness || Do you agree to the conditions?
+rp_left || Yes
+rp_right || No
+rp_education || Education
+rp_edu1 || Elementary school
+rp_edu2 || High school or equivalent
+rp_edu3 || Higher education
+rp_ps1 || Have you ever seeked help from a professional psychologist?
+rp_ps2 || Have you ever seeked help from a professional psychiatrist?
+rp_ps3 || Have you ever seeked help from a professional neurologist?
+rp_y || Yes
+rp_n || No
+rp_sex_err || Gender missing
+rp_age_err || Age missing
+rp_weight_err || Weight missing
+rp_height_err || Height missing
+rp_handedness_err || Handedness missing
+rp_education_err || Education missing
+rp_ps1_err || Psychologist information missing
+rp_ps2_err || Psychiatrist information missing
+rp_ps3_err || Neurologist information missing
+
+# Other strings below
+contact_email || enrico.glerean_at_aalto.fi
